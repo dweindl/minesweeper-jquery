@@ -1,0 +1,80 @@
+a {
+    text-decoration : none;
+}
+
+#tblGrid {
+    border-color : black;
+    border-width : 1px;
+    border-style : solid;
+    border-spacing : 0px;
+/*     table-layout: fixed; */
+}
+
+#tblGrid td {
+    width : 20px;
+    height : 20px;
+    padding : 0px;
+    text-align : center;
+    border-color : #666666;
+    border-width : 0.1px;
+    border-style : dotted;
+    background-color : #DDDDDD;
+}
+
+#tblGrid td.hidden {
+    background-color : #AAAAAA;
+}
+
+.1mine {
+    color : blue;
+}
+
+#tblGrid .2mine {
+    color : green;
+}
+
+#tblGrid .3mine {
+    color : red;
+}
+
+#tblGrid .4mine {
+    color : navy;
+}
+
+#tblGrid .5mine {
+    color : #840000;
+}
+
+#tblGrid .6mine {
+    color : #840000;    
+}
+
+#tblGrid .7mine {
+    color : #840000;    
+}
+
+#tblGrid .8mine {
+    color : #840000;    
+}
+
+#tblGrid .mine {
+    background-color : red;
+}
+
+#tblGrid .flagged {
+    background-color : #888888;
+}
+
+#youlose {
+    font-size : 200%;
+    color : red;
+}
+
+#youwin {
+    font-size : 200%;
+    color : green;
+}
+
+.not {
+    display : none;
+}
